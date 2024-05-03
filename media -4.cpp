@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 
     int idades;
-    int soma;
+    double soma = 0;
 
     cout<<"Insira a quantidade de medias que voce deseja calcular: "<<endl;
     cin>>idades;
@@ -16,16 +16,16 @@ int main(){
     int idade;
 
     cout<<"Insira o valor da idade: ";
+
     cin>>idade;
-    
-    int soma = idade;
+
+    soma += idade;
 
    }
 
-    float media = soma / idades;
+   double media = soma / idades;
 
     cout<<"A media das idades eh: "<<media;
-   
     
     return 0;
 }
