@@ -34,7 +34,7 @@ int main(){
         if (num <= 1 || num >= 5)
 
         {
-            
+
             cout<<"Esse valor nao se encontra no intervalo, tente novamente"<<endl;
 
         }else{
@@ -45,5 +45,22 @@ int main(){
         }
         
     }
+
+    //contagem regressiva
+
+    num = 0;
+    cout<<"Digite um valor positivo e inicie a contagem regressiva"<<endl;
+    cin>>num;
+
+    while (num > 0)
+    {
+        cout<< num <<endl;
+
+        --num;
+
+    }
+    
+
+    cout<<"decolar!"<<endl;
     
 }
