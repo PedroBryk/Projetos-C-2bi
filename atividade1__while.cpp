@@ -87,6 +87,30 @@ int main(){
     } while (verifica);
 
     cout<<"Bem vindo ao sistema de cadastro!";
+
+    //calculo terreno
+
+    double altura;
+    double comprimento;
+    char selecao;
+
+    do
+    {
+        cout<<"Digite a altura"<<endl;
+        cin>>altura;
+
+        cout<<"Digite o comprimento"<<endl;
+        cin>>comprimento;
+
+        cout<<"A area eh:"<< altura*comprimento;
+
+        cout<<"Deseja fazer outros calculos S/N?"<<endl;
+        cin>>selecao;
+
+    } while (selecao == 'S'  || selecao == 's');
+
+    cout<<"Calculo realizado!";
+    
     
     
 }
