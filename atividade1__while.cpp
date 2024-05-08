@@ -62,5 +62,31 @@ int main(){
     
 
     cout<<"decolar!"<<endl;
+
+    //do while
+
+    int RA;
+    int RA_correto = 123;
+    bool verifica = true;
+
+    do
+    {
+        cout<<"Digite seu RA: "<<endl;
+        cin>>RA;
+
+        if (RA == RA_correto)
+        {
+
+            verifica = false;
+
+        }else{
+
+            cout<<"O RA digitado esta incorreto tente novamente"
+        }
+        
+    } while (verifica);
+
+    cout<<"Bem vindo ao sistema de cadastro!";
+    
     
 }
