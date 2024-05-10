@@ -13,15 +13,18 @@ do
     cout<<"Digite o numero candidato que voce deseja votar: "<<endl;
     cin>>voto;
 
-    if (voto == 1)
+    switch (voto)
     {
-
+    case 1:
         voto_antonio++;
-
-    }else if(voto == 2){
-
+        break;
+    
+    case 2:
         voto_simao++;
-
+        break;
+    
+    default:
+        break;
     }
     
 } while (voto != fim);
