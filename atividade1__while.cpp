@@ -81,7 +81,7 @@ int main(){
 
         }else{
 
-            cout<<"O RA digitado esta incorreto tente novamente"
+            cout<<"O RA digitado esta incorreto tente novamente";
         }
         
     } while (verifica);
