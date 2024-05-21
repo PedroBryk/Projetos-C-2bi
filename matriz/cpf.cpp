@@ -16,7 +16,7 @@ int main(){
 
      for (int i = 0; i < 5; i++)
      {
-        cout<<matriz [0] [i];
+        cout<<matriz [0] [i]<<" ";
         
         cout<<matriz [1] [i];
 
